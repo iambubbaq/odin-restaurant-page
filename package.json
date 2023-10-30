@@ -4,7 +4,8 @@
   "description": "Restaurant page to delve deeper into intermediate javascript with a focus on webpack and modular javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "toGitHub": "git subtree push --prefix dist origin gh-pages"
   },
   "author": "",
   "license": "ISC",

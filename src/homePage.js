@@ -1,3 +1,5 @@
+import BeefandEggIMG from "./img/BeefandEgg.jpg";
+
 function homePage() {
   //setup page content div
   let content = document.getElementById("content");
@@ -11,7 +13,7 @@ function homePage() {
 
   //create and append image
   let img = document.createElement("img");
-  img.src = "../img/BeefandEgg.jpg";
+  img.src = BeefandEggIMG;
   img.classList.add("restaurantIMG");
   img.height = "200";
   img.width = "300";
